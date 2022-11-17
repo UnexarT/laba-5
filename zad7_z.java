@@ -16,7 +16,7 @@ public class zad7_z {
                 } else {
                     System.out.println("z = " + sqrt(cos(2*x+1)+exp(x*x)/(E+x*x)));
                 }
-            } else if (x >= 0 & x < 1) {
+            } else if (x >= 0 & x <= 1) {
                 System.out.println("z = " + (2*pow(cos(pow(sin(x),3)),2)));
             } else {
                 if (x == 2 || (1/(x-2) + abs(2*sin(pow(3*x,1/4f))) < 0)) {
